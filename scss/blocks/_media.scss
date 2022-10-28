@@ -1,0 +1,599 @@
+@media screen and (max-width: 1320px) {
+
+
+  .statistics-block_in {
+    ul {
+      padding: 8px 0 0 30px;
+    }
+  }
+}
+@media screen and (max-width: 1200px) {
+  .about-block_form {
+    max-width: 530px;
+    .form-item {
+      display: block;
+    }
+    input {
+      width: 100%;
+    }
+  }
+  .tariff-block_in {
+    padding: 0 100px;
+  }
+  .faq-block_in {
+    padding: 0 100px;
+  }
+  .header-nav {
+    a {
+      font-size: 12px;
+    }
+  }
+  .main-block_in {
+    img {
+      max-width: 400px;
+      right: 0;
+    }
+  }
+  .banner-block_in {
+    h3 {
+      max-width: 450px;
+      font-size: 26px;
+    }
+  }
+  .footer-nav {
+    a {
+      font-size: 16px;
+    }
+  }
+}
+@media screen and (max-width: 1024px) {
+  h2 {
+    font-size: 36px;
+    line-height: 46px;
+  }
+  .header-in {
+    margin: 0;
+  }
+  .header-nav {
+    display: none;
+  }
+  .header-buttons {
+    display: none;
+  }
+  .burger {
+    display: block;
+    margin: 0 -8px 0 0;
+  }
+  .advantages-block_title {
+    width: 100%;
+    margin: 0 0 30px;
+  }
+  .advantages-block_list {
+    width: 100%;
+    padding: 0;
+  }
+  .instruction-list {
+    li {
+      width: 50%;
+      font-size: 16px;
+      line-height: 20px;
+      padding: 30px 10px 0;
+      &:nth-child(3) {
+        clear: left;
+      }
+    }
+    h3 {
+      font-size: 20px;
+      line-height: 28px;
+    }
+  }
+  .tariff-block_in {
+    padding: 0;
+  }
+  .reviews-block_in {
+    padding: 0;
+  }
+  .faq-block_in {
+    padding: 0;
+  }
+  .footer-nav {
+    display: block;
+    width: 137px;
+    li {
+      display: block;
+      margin: 0 0 16px;
+      padding: 0;
+    }
+  }
+  .footer-left {
+    overflow: hidden;
+    flex-direction: row;
+    width: 65%;
+    h5 {
+      width: 107px;
+    }
+  }
+  .footer-right {
+    width: 35%;
+  }
+  .statistics-block_in {
+    ul {
+      flex-wrap: wrap;
+      padding: 0 0 0 40px;
+    }
+    li {
+      width: 50%;
+      margin: 0 0 25px;
+    }
+    b {
+      font-size: 40px;
+      line-height: 45px;
+    }
+  }
+  .about-block_text {
+    max-width: 100%;
+  }
+  .about-block_form {
+    position: relative;
+    left: 0;
+    max-width: 100%;
+    text-align: center;
+  }
+  .banner-block {
+    text-align: center;
+  }
+  .banner-block_in {
+    h3 {
+      max-width: 100%;
+      margin: 0 auto 20px;
+      width: 100%;
+    }
+  }
+  .banner-block_form {
+    width: 100%;
+  }
+  .header.active {
+    background: $color_purple;
+    min-height: 100vh;
+    padding: 0 0 80px;
+    box-sizing: border-box;
+    .header-nav {
+      display: block;
+      position: absolute;
+      top: 85px;
+      left: 0;
+      right: 0;
+      overflow-y: auto;
+      max-height: 500px;
+      li {
+        display: block;
+        margin: 0 0 32px;
+      }
+       a {
+         font-size: 24px;
+         line-height: 30px;
+         opacity: 0.8;
+       }
+    }
+    .header-logo {
+      opacity: 0;
+    }
+    .header-buttons {
+      display: block;
+      position: absolute;
+      bottom: 16px;
+      left: 16px;
+      right: 16px;
+      margin: 0 -8px;
+      .btn {
+        width: calc(50% - 16px);
+        box-sizing: border-box;
+        text-align: center;
+        margin: 0 8px;
+        float: left;
+        font-size: 16px;
+        padding: 14px 22px 14px;
+      }
+    }
+  }
+  .statistics-block {
+    padding: 50px 0 30px;
+  }
+  .advantages-block {
+    padding: 75px 0 80px;
+  }
+  .instruction-block {
+    padding: 50px 0 75px;
+  }
+  .tariff-block {
+    padding: 75px 0 50px;
+  }
+  .reviews-block {
+    padding: 75px 0 75px;
+  }
+  .faq-block {
+    padding: 75px 0 64px;
+  }
+  .main-block_in {
+    display: flex;
+    flex-direction: column-reverse;
+    img {
+      position: relative;
+      max-width: 60%;
+      left: 0;
+      right: 53px;
+      margin: 0 0 33px;
+    }
+  }
+  .main-block {
+    padding: 75px 0 150px;
+  }
+  .main-block_text {
+    max-width: 100%;
+    p {
+      max-width: 100%;
+    }
+  }
+  .carousel-item {
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 767px) {
+  h2 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .wrapper {
+    padding: 0 16px;
+  }
+  .advantages-block {
+    padding: 181px 0 63px;
+  }
+  .advantages-block_title {
+    width: 100%;
+    padding: 0;
+    margin: 0 0 41px;
+  }
+  .advantages-block_list {
+    width: 100%;
+    padding: 0;
+    li {
+      width: 100%;
+      font-size: 14px;
+      line-height: 17px;
+      margin: 0 0 32px;
+    }
+    h3 {
+      font-size: 20px;
+      line-height: 28px;
+    }
+  }
+  .instruction-block {
+    padding: 24px 0 43px;
+    &:after {
+      top: -24px;
+      width: 265px;
+      background-size: contain;
+      z-index: -1;
+    }
+    .btn {
+      width: 100%;
+      padding: 15px 20px 15px;
+    }
+  }
+  .instruction-list {
+    padding: 51px 0 24px;
+    ul {
+      margin: 0 0 16px;
+    }
+    li {
+      width: 100%;
+      font-size: 16px;
+      line-height: 20px;
+      border-left: 2px solid white;
+      padding: 0 4px 0 31px;
+      &:after {
+        display: none;
+      }
+      &:last-child {
+        margin: 0;
+      }
+    }
+    h3 {
+      font-size: 20px;
+      line-height: 28px;
+    }
+  }
+  .tariff-block_in {
+    padding: 0;
+  }
+  .tariff-item {
+    width: 100%;
+  }
+  .tariff-item_in {
+    padding: 16px 16px 140px;
+    min-height: 420px;
+    h3 {
+      font-size: 20px;
+      line-height: 28px;
+      margin: 0 0 24px;
+    }
+    li {
+      &:after {
+        left: -16px;
+        right: -16px;
+      }
+    }
+    .btn {
+      left: 16px;
+      right: 16px;
+      bottom: 15px;
+    }
+  }
+  .tariff-item_info {
+    left: 16px;
+    right: 16px;
+    bottom: 91px;
+  }
+  .reviews-block_in {
+    padding: 0;
+  }
+  .reviews-list_col {
+    width: 100%;
+  }
+  .faq-block {
+    padding: 56px 0 43px;
+  }
+  .faq-block_in {
+    padding: 0;
+    h2 {
+      margin: 0 0 40px;
+    }
+  }
+  .accordion-item {
+    h5 {
+      font-size: 20px;
+      line-height: 28px;
+    }
+  }
+  .banner-block {
+    padding: 16px 0 20px;
+  }
+  .banner-block_in {
+    overflow: visible;
+    h3 {
+      font-size: 20px;
+      line-height: 28px;
+      margin: 0 0 14px;
+      float: none;
+    }
+
+  }
+
+  .footer-in {
+    height: auto;
+    overflow: visible;
+  }
+.header-logo {
+  margin: 0px 0 0 -6px;
+}
+  .footer-right {
+    width: 100%;
+    float: none;
+    padding: 22px 0 21px;
+    text-align: left;
+    position: relative;
+    &:after {
+      content: '';
+      height: 1px;
+      background: rgba(255, 255, 255, 0.3);
+      position: absolute;
+      top: 0;
+      left: -16px;
+      right: -16px;
+    }
+  }
+  .footer-logo {
+    margin: 0 0 80px;
+  }
+.reviews-block {
+  padding: 56px 0 64px;
+  h2 {
+    margin: 0 0 40px;
+  }
+}
+  .tab-menu {
+    ul {
+      width: 100%;
+      box-sizing: border-box;
+      display: flex;
+    }
+    li {
+      font-size: 18px;
+      line-height: 24px;
+      width: 50%;
+      padding: 8px 20px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+  }
+
+  .form-block {
+    input {
+      width: 100%;
+      font-size: 14px;
+      line-height: 20px;
+      padding: 15px 109px 15px 16px;
+    }
+    .btn {
+      position: relative;
+      width: 100%;
+      box-sizing: border-box;
+      font-size: 14px;
+      line-height: 20px;
+      padding: 11px 23px 9px;
+    }
+  }
+  .statistics-block {
+    padding: 26px 0 18px;
+    &:after {
+      top: -23px;
+      width: 248px;
+      background-size: contain;
+      z-index: -1;
+    }
+  }
+  .statistics-block_title {
+    width: 100%;
+    padding: 0 25px;
+    float: none;
+  }
+  .statistics-block_in {
+    margin: 0 -25px;
+    overflow: visible;
+    ul {
+      width: 100%;
+      padding: 40px 0 0;
+      flex-wrap: wrap;
+      float: none;
+    }
+    li {
+      width: 50%;
+      padding: 0 25px;
+      box-sizing: border-box;
+      margin: 0 0 28px;
+    }
+    b {
+      font-size: 35px;
+      line-height: 39px;
+    }
+    h2 {
+      margin: 0 0 1px;
+    }
+  }
+
+  .header-in {
+    margin: 0;
+    justify-content: space-between;
+  }
+  .header-logo {
+width: 107px;
+  }
+  .main-block_text {
+    h1 {
+      font-size: 35px;
+      line-height: 44px;
+    }
+  }
+  .main-block_form {
+    .btn {
+      position: absolute;
+      width: auto;
+    }
+    .form-item {
+      display: block;
+    }
+  }
+
+  .main-block {
+    padding: 40px 0 60px;
+  }
+  .main-block_in {
+    img {
+      max-width: 88%;
+      top: 0;
+    }
+  }
+  .deal-block {
+    padding: 47px 0 96px;
+    h2 {
+      margin: 0;
+    }
+  }
+.swiper {
+  margin: 25px 0 0;
+  padding: 0 43px 0 0;
+}
+  .swiper-horizontal > .swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal {
+  bottom: -18px;
+    max-width: 311px;
+  }
+.about-block {
+  padding: 24px 0 112px;
+  &:after {
+    top: -23px;
+    width: 251px;
+    background-size: contain;
+    z-index: -1;
+  }
+}
+  .about-block_text {
+    h2 {
+      margin: 0 0 20px;
+    }
+  }
+  .about-block_form {
+    width: auto;
+    bottom: -256px;
+    top: auto;
+    padding: 15px 16px;
+    left: 10px;
+    right: 10px;
+    position: absolute;
+    h3 {
+      font-size: 20px;
+      line-height: 28px;
+      margin: 0 0 20px;
+    }
+    .btn {
+      margin: 8px 0 0;
+      font-size: 16px;
+      line-height: 20px;
+      padding: 16px 23px 14px;
+    }
+  }
+  .tariff-block {
+    padding: 57px 0 25px;
+    h2 {
+      margin: 0 0 25px;
+    }
+  }
+  .tab-menu {
+    margin: 0 0 26px;
+  }
+  .reviews-item_img {
+    transform: translateY(0);
+    top: 52px;
+  }
+.reviews-item {
+  margin: 0 0 16px;
+}
+  .reviews-list {
+    margin: 0 -10px 8px;
+  }
+  .banner-block_form {
+    width: 100%;
+    float: none;
+    input {
+      width: 100%;
+      padding: 15px 16px 15px 16px;
+    }
+    .btn {
+      position: relative;
+      width: 100%;
+      margin: 4px 0 0;
+      font-size: 16px;
+      line-height: 20px;
+      padding: 15px 23px 15px;
+      right: auto;
+    }
+    .form-item {
+      display: block;
+    }
+  }
+  .footer-left {
+    width: 100%;
+    border: none;
+    padding: 39px 13px 41px 0;
+  }
+}

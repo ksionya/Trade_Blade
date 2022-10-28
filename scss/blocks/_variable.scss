@@ -1,0 +1,71 @@
+$color_white: #fff;
+$color_purple: #6A54FF;
+$color_blue: #57E1FF;
+$color_black: #030718;
+$color_green: #35FF9E;
+
+
+body {
+  background: #030718;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  min-width: 375px;
+}
+.wrapper {
+max-width: 1320px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 auto;
+ // position: relative;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-feature-settings: 'ss04' on;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  padding: 10px 24px 10px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.btn-blue {
+  background: $color_blue;
+  border: 1px solid $color_blue;
+  box-shadow: 0px 0px 4px $color_blue;
+  border-radius: 3px;
+  color: $color_black;
+  &:hover {
+   color: $color_purple;
+  }
+}
+
+.btn-border {
+  background: rgba(87, 225, 255, 0.2);
+  border: 2px solid $color_blue;
+  box-shadow: 0px 0px 4px $color_blue;
+  border-radius: 3px;
+  color: $color_blue;
+  padding: 9px 22px 9px;
+  &:hover {
+    color: $color_purple;
+    border: 2px solid $color_purple;
+  }
+}
+* {
+  outline: none;
+}
+h2 {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 56px;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  font-feature-settings: 'ss04' on, 'case' on;
+  margin: 0;
+}
